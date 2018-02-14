@@ -1,0 +1,37 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    background-color: #FFC107;
+    box-sizing: border-box;
+    height: 40vh;
+    padding-top: 5vh;
+    padding-left: 25%;    
+}
+
+#search-keyword {
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 50%;    
+}
+
+#response-container li {    
+    border: 1px solid rgb(124, 124, 124);
+    box-shadow: 1px 1px 10px rgb(165, 165, 165);
+    list-style: none;
+    padding: 5vh 5vh;
+    width: 70%;
+}
+
+input[type='submit'] {
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: rgb(12, 12, 97);
+    color: white;
+}
+
